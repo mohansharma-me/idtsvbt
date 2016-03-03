@@ -1,0 +1,288 @@
+* {
+	margin:0px;
+	padding:0px;
+	font: Tahoma, Geneva, sans-serif;
+}
+h1,h2,h3,h4 {
+	font: auto Tahoma, Geneva, sans-serif;
+}
+input {
+	padding:5px;
+}
+body {
+	font: normal 1.0em sans-serif;
+	line-height: 1.5em;
+	background:#ddbd90;
+	color:url(img/bg.gif);
+	font: 13px Tahoma, Geneva, sans-serif;
+}
+.header {
+	color:#ddbd90;
+	background:url(img/bg.gif);
+	width:100%;
+	height:90px;
+	padding-top:10px;border-bottom:1px solid black;
+}
+.header #logo {
+	padding:7px;
+	font-size:150%;
+}
+.header #logo a{
+	color:#ddbd90;
+	text-decoration:none;
+}
+.navi {
+        padding:7px;
+	margin-top:-45px;
+	margin-bottom:4px;
+}
+.navi a {
+	border:1px solid black;
+	padding:7px;
+	color:#ddbd90;
+	background:url(img/bg.gif);
+	text-decoration:none;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+.navi #current {
+	border-left:1px solid black;border-right:1px solid black;border-bottom:1px solid black;
+	color:black;
+	background:url(img/nav.gif);
+}
+.navi a:hover {
+	border:1px solid black;
+	padding:8px;
+	color:black;
+	background:url(img/nav.gif);
+}
+.content {
+	margin-top:15px;
+	margin-bottom:15px;
+	word-wrap:break-word;
+	padding:15px;margin-bottom:80px;
+}
+.footer {
+	color:#ddbd90;
+	background:url(img/bg.gif);
+	width:100%;
+	height:40px;
+}
+.fnavi {
+	margin-bottom:-35px;
+	position:relative;
+}
+.fnavi a {
+	border:1px solid black;
+	padding:7px;
+	color:#ddbd90;
+	background:url(img/bg.gif);
+	text-decoration:none;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+.fnavi #current {
+    border-left:1px solid black;border-right:1px solid black;border-top:1px solid black;
+    color:black;
+    background:url(img/nav.gif);
+}
+.fnavi a:hover {
+    padding:8px;
+	border:1px solid black;
+	color:black;
+	background:url(img/nav.gif);
+}
+.msgs {
+	height:350px;
+	overflow:auto;
+}
+.msgs li {
+	list-style-image:url(img/rarrow.png);
+	margin:2px;padding:2px;
+	margin-bottom:5px;
+}
+.msgs a {
+	text-decoration:underline;color:white;
+}
+.msgs a:hover {
+	text-decoration:underline;color:red;
+}
+.boxitems {
+    margin-left:75px;
+}
+.boxitems a {
+    text-decoration:none;
+    float:left;
+    height:auto;
+    width:120px;
+    margin:2px;
+    padding:15px;
+    border:1px solid black;
+    font-size:12px;
+    background:#3E3933;
+    color:#ddbd90;
+    text-align:center;
+}
+.boxitems a img {
+    border:0px;
+    width:118px;
+    height:150px;
+}
+.boxitems a:hover {
+    color:black;
+    background:#53A4BB;
+}
+#error {
+	font: 13px Tahoma, Geneva, sans-serif;
+	width:500px;
+	padding:10px;
+	background:red;
+	border:1px solid red;
+	border-radius:10px;-moz-border-radius:10px;border:1px solid black;
+}
+#error a {text-decoration:underline;color:white}
+#done {
+	font: 13px Tahoma, Geneva, sans-serif;
+	width:500px;
+	padding:10px;
+	background:green;color:white;
+	border:1px solid green;
+	border-radius:10px;-moz-border-radius:10px;border:1px solid black;
+}
+#done a {text-decoration:underline;color:white}
+#warning {
+	font: 13px Tahoma, Geneva, sans-serif;
+	width:500px;
+	padding:10px;
+	background:yellow;
+	border:1px solid yellow;
+	border-radius:10px;-moz-border-radius:10px;border:1px solid black;
+}
+#warning a {text-decoration:underline;color:blue}
+
+.td_lbl {
+	text-align: right;
+}
+.td_val {
+	width:500px;
+	text-align: center;
+}
+.mytable {
+	font: 13px Tahoma, Geneva, sans-serif;
+	width:100%;
+}
+.mytable .head{
+	background:url(img/bg.gif);color:#ddbd90;
+}
+.mytable .head td {
+	border-bottom:1px solid black;width:200px;padding:10px;
+}
+.mytable tr {
+	background:#109ad9;
+}
+.mytable tr td {
+	padding:5px;border-bottom:1px solid black;
+}
+.mytable a {
+	color:black;
+	text-decoration: none
+}
+#window #current {
+    position:relative;top:+1px;
+    border-left:1px solid black;border-right:1px solid black;border-top:1px solid black;
+    color:black;
+    background:#ddbd90;
+}
+#window a {
+    border-top:1px solid black;border-left:1px solid black;border-right:1px solid black;
+    color:#ddbd90;
+    background:url(img/bg.gif);
+}
+#window a:hover {
+    color:black;
+    background:url(img/nav.gif);
+}
+.window {
+    
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    -moz-border-radius-bottomleft:8px;
+    -moz-border-radius-topright:8px;
+    -moz-border-radius-bottomright:8px;
+    background:#EACCA3;color:black;
+}
+.linkbox {
+    padding:5px;
+}
+.linkbox a {
+    text-decoration:none;
+    padding:5px;
+    background:black;color:white;
+    border:1px solid black;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    color:#ddbd90;
+    background:url(img/bg.gif);
+}
+.linkbox a:hover {
+    color:black;
+    background:url(img/nav.gif);
+}
+.content .sidebar-left {
+	text-align:center;
+	float:left;
+	width:70%;
+}
+.content .sidebar-right {
+	padding:6px;
+	background:#534C46;color:#ddbd90;
+	float:right;
+	width:25%;height:auto;
+	border-radius:10px;-moz-border-radius:10px;
+}
+.content .sidebar-right a {
+	text-decoration:underline;color:#ddbd90;
+}
+
+.content a {
+	text-decoration:none;
+}
+.link {
+	text-decoration:underline;color:#ddbd90;
+}
+.slider {
+}
+.slider img {
+	border-radius:10px;-moz-border-radius:10px;border:0px solid black;
+	width:190px;min-height:120px;max-height:150px;margin:2px;
+}
+
+
+
+
+.content .sidebar-left .sidebar-left {
+	float:left;width:25%;
+	max-width:25%;text-align:left;
+	background:#534C46;color:#ddbd90;padding:10px;
+	border-radius:10px;-moz-border-radius:10px;
+}
+.content .sidebar-left .sidebar-right {
+	float:right;
+	width:70%;background:transparent;color:black;
+	border-radius:10px;-moz-border-radius:10px;padding:2px;
+}
+.content .sidebar-left .sidebar-left a {
+	text-decoration:underline;color:#ddbd90;
+}
+.classic  span{color:#ddbd90;font: 13px Tahoma, Geneva, sans-serif;}
+.classic a {
+	text-decoration:none;border:1px solid white;
+	position:relative;float:left;border-radius:10px;padding:10px;color:black;text-align:center;margin:2px;background:#534C46;
+}
+.classic a:hover {border:1px solid black}
+.classic img {height:180px;width:140px
+}
+.myt td {
+	padding:10px;
+}
